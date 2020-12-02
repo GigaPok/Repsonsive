@@ -1,0 +1,87 @@
+
+@media only screen and (max-width: 1330px) {
+    .section2 {
+        height: auto;
+    }
+    .section2-main-div {
+        flex-wrap: wrap;
+    }
+    .sec-box {
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .section3-left-div,
+    .section4-box1,
+    footer {
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+    header {
+        padding: 30px 48px 95px;
+    }
+    .section1 {
+        flex-direction: column;
+        padding: 40px 48px 90px;
+    }
+    .section2 {
+        padding: 92px 48px 90px;
+    }
+    .box1,
+    .box-p1,
+    .box-p2,
+    .box-title3,
+    .section4-box1,
+    .box-title2
+    {
+        width: 100%;
+        height: auto;
+    }
+    .footer-main-div,
+    .section3 {
+        flex-direction: column;
+        padding-left: 0%;
+    }
+    .navgation a {
+        margin-right: 10px;
+    }
+    .box2 {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .ReadMore {
+        margin-bottom: 20px;
+    }
+
+}
+@media only screen and (max-width: 600px) {
+    .navgation {
+        display: flex;
+        flex-direction: column;
+    }
+    .sec-box,
+    .section3-p,
+    .footer-left-blok-p,
+    .footer-left-bock,
+    .section3-left-div {
+        width: 100%;
+        height: auto;
+    }
+    .section3-left-div,
+    .section4-box1,
+    footer
+    {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    header {
+        padding: 30px 16px 95px;
+    }
+    .section1 {
+        padding: 40px 16px 90px;
+    }
+    .section2 {
+        padding: 92px 16px 90px;
+    }
+}

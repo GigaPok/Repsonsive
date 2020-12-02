@@ -1,0 +1,198 @@
+.st0 {
+    fill: #606468;
+}
+
+.st1 {
+    fill: #EEF2F4;
+}
+
+.st2 {
+    fill: #525456;
+}
+
+.st3 {
+    fill: #A9A8A9;
+}
+
+.st4 {
+    fill: #23D497;
+}
+
+.st5 {
+    fill: #191919;
+}
+
+.st6 {
+    fill: none;
+    stroke: #151515;
+    stroke-width: 4;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st7 {
+    fill: #242424;
+}
+
+.st8 {
+    fill: #1A1A1A;
+}
+
+.st9 {
+    opacity: 0.46;
+    fill: none;
+    stroke: #FFFFFF;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st10 {
+    opacity: 0.92;
+    fill: #191919;
+}
+
+.st11 {
+    fill: #25BA81;
+}
+
+.st12 {
+    fill: none;
+    stroke: #151515;
+    stroke-width: 3;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st13 {
+    fill: #31FE9F;
+}
+
+.st14 {
+    opacity: 0.83;
+}
+
+.st15 {
+    fill: #86FCBE;
+}
+
+.st16 {
+    fill: #151515;
+}
+
+.st17 {
+    opacity: 0.95;
+    fill: #23D497;
+}
+
+.st18 {
+    fill: #1FCC8A;
+}
+
+.st19 {
+    fill: #161616;
+}
+
+.st20 {
+    fill: none;
+    stroke: #151515;
+    stroke-width: 6;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st21 {
+    opacity: 0.46;
+    fill: none;
+    stroke: #FFFFFF;
+    stroke-width: 3;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st22 {
+    fill: none;
+    stroke: #FFFFFF;
+    stroke-width: 3;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st23 {
+    fill: #5E5E5E;
+}
+
+.st24 {
+    fill: none;
+    stroke: #151515;
+    stroke-width: 7;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st25 {
+    opacity: 0.5;
+    fill: none;
+    stroke: #FFFFFF;
+    stroke-width: 3;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st26 {
+    fill: #B7B7B7;
+}
+
+.st27 {
+    opacity: 0.67;
+    fill: none;
+    stroke: #FFFFFF;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+.bike {
+    width: 200px;
+    position: absolute;
+    right: 0;
+    animation: ride 10s infinite ease-out;
+    top: 0%;
+}
+#tyre1,#tyre2,#padel {
+    animation: rotate 2s infinite linear;
+    transform-box: fill-box;
+    transform-origin: center;
+}
+
+.gif  {
+    width: 140px !important;
+    position: absolute;
+    top: 0%;
+    animation: ride2 10s infinite ease-in;
+}
+
+@keyframes rotate {
+    0%   {transform: rotate(0deg)}
+    100% {transform: rotate(-360deg)}
+}
+@keyframes ride {
+    0%   {right: -200px;} 
+    50%  {right: 100%;transform: rotateY(0deg);}
+    51%  {right: 100%;transform: rotateY(180deg);}
+    100% {right: -200px;transform: rotateY(180deg);}
+}
+@keyframes ride2 {
+    0%   {right: -300px;} 
+    50%  {right: 100%;transform: rotateY(0deg);}
+    51%  {right: 100%;transform: rotateY(180deg);}
+    100% {right: -300px;transform: rotateY(180deg);}
+}
